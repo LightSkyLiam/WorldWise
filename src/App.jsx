@@ -14,6 +14,7 @@ import CountryList from "./Components/CountryList";
 import City from "./Components/City";
 import Form from "./Components/Form";
 import SpinnerFullPage from "./Components/SpinnerFullPage";
+
 const HomePage = lazy(() => import("./pages/Homepage"));
 const Pricing = lazy(() => import("./pages/Pricing"));
 const Product = lazy(() => import("./pages/Product"));
