@@ -26,10 +26,10 @@ function App() {
   return (
     <CitiesProvider>
       <AuthProvider>
-        <BrowserRouter basename="WorldWise">
+        <BrowserRouter basename="WorldWise/">
           <Suspense fallback={<SpinnerFullPage />}>
             <Routes>
-              <Route path="/" index element={<HomePage />} />
+              <Route exact path="/" index element={<HomePage />} />
               <Route path="product" element={<Product />} />
               <Route path="pricing" element={<Pricing />} />
               <Route path="login" element={<Login />} />
